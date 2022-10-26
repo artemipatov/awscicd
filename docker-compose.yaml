@@ -1,0 +1,7 @@
+version: '3'
+services:
+  nodeapp:
+    image: 194371479148.dkr.ecr.eu-central-1.amazonaws.com/nodeapp:$TAG
+    ports:
+      - 80:3000
+    restart: always
